@@ -15,7 +15,7 @@ def get_total():
         data=json.loads(req.text)
     return data
 if __name__=="__main__":
-    print(base("canada"))
+    print(base("India"))
     print(get_total())
 
 
